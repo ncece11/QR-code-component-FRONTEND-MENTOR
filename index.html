@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  
+  <title>Frontend Mentor | QR code component</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Outfit:wght@400;700&display=swap');
+
+    body {
+      font-family: 'Outfit', sans-serif;
+      text-align: center;
+      background-color: #D5E1EF;
+    }
+    .card {
+      padding: 15px;
+      box-shadow: 0 0 50px #ccc;
+      border-radius: 1.2em;
+      width: 15%;
+      background-color: #FFFFFF;
+      margin: 10% 0px 20px;
+    }
+    .qr-code {
+      width: 100%;
+      border-radius: 0.8em;
+    }
+    .first-paragraph {
+      font-weight: 800;
+      font-size: 1.3em;
+      color: #1C2840;
+      margin: 20px 12px 12px;
+    }
+    .second-paragraph {
+      color: gray;
+      font-size: 15px;
+      margin: 15px 9px 20px;
+    }
+    .center{
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+    }
+
+    .attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+
+    @media only screen and (max-width: 375px) {
+      .card {
+        width: 70%;
+        margin-top: 25%;
+      }
+      .highlight {
+        font-size: 1.2em;
+      }
+      .none-text {
+        font-size: 14px;
+        margin: 15px 9px 20px;
+      }
+    }
+
+    @media only screen and (min-width: 1440px) {
+      .card {
+        width: 20%;
+      }
+      .highlight {
+        font-size: 1.4em;
+      }
+      .none-text {
+        font-size: 15px;
+        margin: 15px 18px 20px;
+      }
+    }
+    @media only screen and (min-width: 1864px) {
+      .card {
+        width: 15%;
+      }
+      .highlight {
+        font-size: 1.4em;
+      }
+      .none-text {
+        font-size: 15px;
+        margin: 15px 18px 20px;
+      }
+    } 
+  </style>
+</head>
+<body>
+
+  <div class="container">
+    <div class="card center">
+      <div class="card-image">
+        <!-- QR code image -->
+        <img class="qr-code" src="images/image-qr-code.png">
+      </div>
+      <!-- 1st paragraph -->
+      <p class="first-paragraph">
+        Improve your front-end skills by building projects
+      </p>
+      <!-- 2nd paragraph -->
+      <p class="second-paragraph">
+        Scan the QR code to visit Frontend Mentor and take your coding skills to the next level
+      </p>
+    </div>
+  </div>
+  
+  <!-- Author -->
+  <div class="attribution">
+    Challenge by 
+    <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Coded by <a href="https://www.frontendmentor.io/profile/ncece11">NIKKI ILANAN</a>.
+  </div>
+
+</body>
+</html>
